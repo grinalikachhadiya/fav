@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Love Story</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay loop hidden>
+        <source src="paaro.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <button onclick="toggleMusic()" class="music-btn">🔊</button>
+
+    <header class="hero">
+        <h1>Our Love Story</h1>
+        <p>Grinali & Montek</p>
+    </header>
+
+    <section class="timeline">
+        <div class="event">
+            <h2>How We Met</h2>
+            <p>
+                Honestly, there was no plan from God that we’d end up here — if there had been,
+                you wouldn't have called anyone to class, and to be honest, I thought you were a
+                bit full of yourself back then. But even then, you never really spoke much,
+                which is why I told you, “At least read something!” That’s how our conversations
+                slowly began.
+                <br><br>
+                At that time, I was quite bored and annoyed with everything,
+                so I asked you for your earbuds — but in my heart, I had already decided:
+                <i> If you offered them again the next day, we’d definitely meet and talk properly.</i>
+                <br><br>
+                And guess what? The very next day, you gave me your buds.
+                <br><br>
+                That one small gesture made me unexpectedly happy — and right then,
+                somewhere deep inside… I started to like you. 💖
+            </p>
+        </div>
+
+        <div class="event">
+            <h2>Our First Date</h2>
+            <p class="event-date">Sunday, June 8</p>
+            <p>
+                Our first day was amazing. We spent time together in the garden,
+                and we even watched the same movie twice—just because we wanted to spend
+                more time together at the theatre. Every moment was truly special.
+                <br><br>
+                Later, we even spent the night together. There were a few small issues at night,
+                but honestly, I forgot all of them the moment you fell asleep in my arms.
+                Just looking at you brought peace to my heart. How can someone be this loving
+                and sweet? It feels unreal. 🫶🏻✨
+            </p>
+        </div>
+
+        <div class="event">
+            <h2>Trips & Memories</h2>
+            <p>
+                We never really went on grand trips — but for us, even the garden felt like an escape.
+                <br><br>
+                Because we couldn't go out much together, even the smallest moments felt like adventures.
+                To me, the garden was not just a garden… it was our trip, our little world.
+                <br><br>
+                Some places will always be special, no matter how simple they are.
+                Like the BRTS stop, TRP Mall, Movie theatre, and that quiet garden — they aren’t just locations…
+                They are where my heart found peace with you. ❤️
+            </p>
+        </div>
+
+        <div class="event">
+            <h2>My Special One</h2>
+            <p>
+                I always joke around and tease you saying, “Baby, all my sins must’ve been washed away, that’s why I found you!”
+                But honestly... deep down, I truly mean it.
+                <br><br>
+                I feel incredibly lucky — because you're not just someone I met...
+                <br>
+                <b>You are my life partner...</b>
+                <br>
+                My peace, my strength, my forever. 💕
+            </p>
+        </div>
+    </section>
+
+    <section class="proposal">
+        <h2>And now...</h2>
+        <button id="revealBtn">Click to Reveal ❤️</button>
+        <div id="revealMessage" class="hidden">
+            <h1>Will You Marry Me? 💍</h1>
+            <p>Forever starts today.</p>
+            <div class="photo-gallery">
+                <img src="1.jpg" alt="Holding Hands" width="120px">
+                <img src="9.jpg" alt="Side Hug">
+                <img src="2.jpg" alt="Feet Together">
+                <img src="5.jpg" alt="Cute Moment" width="120px">
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made with love 💖 by Grinali</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleMusic() {
+            const audio = document.getElementById("bg-music");
+            audio.muted = !audio.muted;
+        }
+    </script>
+</body>
+</html>
